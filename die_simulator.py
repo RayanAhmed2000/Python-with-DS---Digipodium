@@ -1,3 +1,9 @@
+##### Die Simulator ##########
+
+# Game Rules..! 
+# if you bring 6 three times you win
+# if you bring 1 three times you lose
+
 from random import randint
 win_count = 0
 lose_count = 0
