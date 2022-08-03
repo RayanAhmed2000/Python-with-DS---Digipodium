@@ -12,6 +12,7 @@ count=0
 lose_streak = 0
 
 dice = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣']
+       # 0     1    2     3    4     5    
 
 while True:
     input("Press enter to 🎲 Roll dice")
