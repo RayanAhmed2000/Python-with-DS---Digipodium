@@ -20,7 +20,7 @@ this is my code content for pyhton classes at digipodium
 
 # History
 - Python was created by **Guido van Rossum**
-- First released on **February 20, 1991**.
+- First released on **February 20, 1991**
 
 
 
