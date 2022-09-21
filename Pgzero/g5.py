@@ -17,7 +17,8 @@ def draw():
     screen.clear()
     p.draw()
     c.draw()
-    screen.draw.text(f'score:{score}',{WIDTH-80,10})
+    screen.draw.text(f'score:{score}',{WIDTH-80,10},color = "red")
+
 
 def update():
     player_control()
