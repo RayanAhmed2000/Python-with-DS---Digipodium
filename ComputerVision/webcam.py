@@ -2,14 +2,20 @@ import cv2
 
 webcam = cv2.VideoCapture(0)
 
-while True:
-    status , frame = webcam.read()
+# we can also give address of video
+#webcam = cv2.VideoCapture(r'C:\Users\mcups\Downloads')
+
+while True: #or while webcam.isOpened():
+    status,frame= webcam.read()    # status will store true or false
     if not status:
-        print("camera not working")
+        print("Camera not working")
         break
     cv2.imshow("Webcam",frame)
-
-    if cv2.waitkey(1) == 27:
+    #press esc to exit
+    if cv2.waitKey(10) == 27:
         break
+
+
+
 webcam.release()
 cv2.destroyAllWindows()
