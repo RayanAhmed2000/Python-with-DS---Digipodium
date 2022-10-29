@@ -9,6 +9,7 @@ this is my code content for pyhton classes at digipodium
  >for more info 
  
  [View my Profile](https://github.com/RayanAhmed2000)
+ [Learn Python easy](https://learnxinyminutes.com/docs/python/)
 
  # About Python
  - Python is a **high-level, general-purpose** programming language.
