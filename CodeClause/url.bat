@@ -1,0 +1,1 @@
+conda activate base&python UrlShortner.py
